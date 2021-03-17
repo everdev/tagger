@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="jumbotron mt-3">
+    <h1>Resultados de busqueda</h1>
+    <p *ngIf="Codes.length>0" class="lead">ARTÍCULOS VÁLIDOS ({{Codes.length}}): <span class="badge badge-success ml-2" *ngFor="let valido of Codes">{{valido}}</span></p>
+
+    <p *ngIf="CodesQ.length>0" class="lead">ARTÍCULOS INVALIDOS ({{CodesQ.length}}): <span class="badge badge-danger ml-2" *ngFor="let invalidos of CodesQ">{{invalidos}}</span></p>
+    <h3 *ngIf="CodesQ.length == 0 && Codes.length == 0" >No hay resultados en su busqueda, intente de nuevo.</h3>
+    <a class="btn btn-lg btn-primary" routerLink="/home" role="button">Volver al inicio &raquo;</a>
+  </div>
+</div>
