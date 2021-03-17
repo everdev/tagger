@@ -7,7 +7,6 @@ Esta aplicacion fue escrita por [Ever Rojas](https://mailto:ever.jrg@gmail.com)
 
 ### 1.) Descargar dependencias
 Una vez copiado el repositorio, ejecute el comando `npm install` esto descargara todas las dependencias del proyecto.
-#### En caso de estar bajo el gobierno de Byron (en la red de las oficinas de iRoute): Debe tener configurarda el proxy en npm `Debe solicitar a soporte los comando.`
 
 ### 2.) Ejecutar el servidor.
 
